@@ -1,14 +1,9 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import { Provider } from "react-redux";
-import store from "../redux/store";
-import App from "../components/App";
+import { Application } from "@hotwired/stimulus"
 
-document.addEventListener("DOMContentLoaded", () => {
-  ReactDOM.render(
-    <Provider store={store}>
-      <App />
-    </Provider>,
-    document.getElementById("root")
-  );
-});
+const application = Application.start()
+
+// Configure Stimulus development experience
+application.debug = false
+window.Stimulus   = application
+
+export { application }

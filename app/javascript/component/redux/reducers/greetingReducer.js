@@ -1,19 +1,12 @@
-import { SET_RANDOM_GREETING } from "../actions/greetingActions";
-
 const initialState = {
-  randomGreeting: "Loading...",
+  greeting: '',
 };
 
-const greetingReducer = (state = initialState, action) => {
+const reducer = (state = initialState, action) => {
   switch (action.type) {
-    case SET_RANDOM_GREETING:
-      return {
-        ...state,
-        randomGreeting: action.message,
-      };
+    case SET_GREETING:
+      return { ...state, greeting: action.payload };
     default:
       return state;
   }
 };
-
-export default greetingReducer;

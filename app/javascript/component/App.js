@@ -1,11 +1,13 @@
-import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import Greeting from "./Greeting";
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Greeting from './Greeting';
 
 const App = () => {
   return (
     <Router>
-      <Route path="/" exact component={Greeting} />
+      <Routes>
+        <Route path="/" element={<Greeting />} />
+      </Routes>
     </Router>
   );
 };

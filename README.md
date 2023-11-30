@@ -1,6 +1,6 @@
 <br>
 <div align='center'>
-	<h1>Hello-rails-react</h1>
+	<h1>Budget App</h1>
   </div>
 <a name="readme-top"></a>
 
@@ -10,11 +10,14 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+    - [Live demo](#🚀live-demo)
+    - [Presentation](#presentation)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
+  - [Run tests](#run-tests)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -24,9 +27,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Hello rails react] <a name="about-project"></a>
+# 📖 [Budget App] <a name="about-project"></a>
 
-💰💼 used many different gems with Rails and this exercise I have  connect previous knowledge with new knowledge as I get a chance to use Webpack with jsbundling-rails gem...
+💰💼 GDM Budget_smart is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -35,7 +38,7 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://rubyonrails.org/">Rails</a></li>
+    <li><a href="https://reactjs.org/">Rails</a></li>
   </ul>
 </details>
 
@@ -44,11 +47,24 @@
 ### Key Features <a name="key-features"></a>
 
 - Gitflow execution
-- Webpack with jsbundling-rails gem. 
-- Show Greeting message 
+- Register an account
+- Login registered account
+- Create categories and transactions
+- Upload Profile photo
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### 🚀Live Demo <a name="Live Demo"></a>
+
+[Live](https://gdm-budget-smart2.onrender.com)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Presentation <a name="Presentation"></a>
+
+[presentation](https://drive.google.com/file/d/1WKvpQqHMQDH3GazsHVhR_IJ0Q8omJMJ6/view?usp=sharing)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -64,13 +80,13 @@ for cloning follow this steps
 
 - Create a local directory where you can clone the project
 - Clone the project to your directory by running
- 
+ git@github.com:Jrmcuervo/ror_capstone_project.git
 - Run the code with ruby
 
 Example commands:
 
 ```sh
-  git clone  https://github.com/Gardimy/Set_up_hello_project_webpack
+  git https://github.com/Gardimy/Budget_app
 ```
 
 ### Prerequisites
@@ -97,6 +113,11 @@ cd 'project name'
 
 "rails s" to run the server
 
+### Run tests
+
+- "rspec" to run the tests
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
@@ -114,9 +135,8 @@ cd 'project name'
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [Add style]
-- [Add live demo link]
-
+- [Delete and edit transactions]
+- [ User profile settings]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -126,7 +146,7 @@ cd 'project name'
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Gardimy/Set_up_hello_project_webpack/issues).
+Feel free to check the [issues page](https://github.com/Gardimy/Budget_app/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -143,6 +163,7 @@ Feel free to check the [issues page](https://github.com/Gardimy/Set_up_hello_pro
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 - I would like to thank Microverse for the great project idea. ❤️
+- Credit goes to [Gregoire Vella on Behance](https://www.behance.net/gregoirevella) whose original design was used.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
 export const fetchGreeting = createAsyncThunk('greeting/getGreeting', async () => {
   try {
-    const response = await fetch('/greetings/random');
+    const response = await fetch('/greetings');
     const data = await response.json();
     return data.greeting; 
   } catch (error) {
